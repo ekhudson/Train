@@ -30,9 +30,9 @@ public class MainCamera : Singleton<MainCamera>
 	void Start () 
 	{
 		_cameraSetups = new Transform[] {CamSetupFirstPerson, CamSetupThirdPerson, CamSetupTopdown};
-		_currentCamera = _cameraSetups[_currentCameraIndex];
+	//	_currentCamera = _cameraSetups[_currentCameraIndex];
 		
-		_initialRotation.x = 90f;
+		//_initialRotation.x = 90f;
 		
 		_distanceToPlayer = (Player.Instance.BaseTransform.position -  transform.position).magnitude;
 	}
@@ -43,23 +43,23 @@ public class MainCamera : Singleton<MainCamera>
 	   		
 		if(!Console.Instance.ShowConsole) //TODO: Replace this with a paused game state
 		{
-			Vector3 r = new Vector3(Input.GetAxis("Vertical") * UserInput.Instance.MouseSensitivityVertical, 0f, 0f); //vertical rotation  
+			//Vector3 r = new Vector3(Input.GetAxis("Vertical") * UserInput.Instance.MouseSensitivityVertical, 0f, 0f); //vertical rotation  
 	    	
-			_initialRotation += r;
+			//_initialRotation += r;
 			
-			if (_initialRotation.x > CameraUpperLimit)
-			{
-				_initialRotation.x = CameraUpperLimit;
-			}
-			else if (_initialRotation.x < CameraLowerLimit)
-			{
-				_initialRotation.x = CameraLowerLimit;
-			}
-			else
-			{			
-				Vector3 testRot = transform.rotation.eulerAngles + r;
-				transform.rotation = Quaternion.Euler(testRot);
-			}
+//			if (_initialRotation.x > CameraUpperLimit)
+//			{
+//				_initialRotation.x = CameraUpperLimit;
+//			}
+//			else if (_initialRotation.x < CameraLowerLimit)
+//			{
+//				_initialRotation.x = CameraLowerLimit;
+//			}
+//			else
+//			{			
+//				Vector3 testRot = transform.rotation.eulerAngles + r;
+//				transform.rotation = Quaternion.Euler(testRot);
+//			}
 		}
 		
 		if (MakeBlockingObjectsTransparent) { CheckIfViewBlocked(); }

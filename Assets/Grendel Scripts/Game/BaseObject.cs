@@ -117,7 +117,7 @@ public class BaseObject : MonoBehaviour {
 		_updateInterval = UpdatesPerSecond / 60f;
 		
 		//check conditions
-		if (_rigidbody != null && !RigidBodyAwakeOnStart) { _rigidbody.IsSleeping(); }
+		if (_rigidbody != null && !RigidBodyAwakeOnStart) { _rigidbody.Sleep(); }
 		if (!GameObjectActiveOnStart) { _gameObject.active = false; }
 				
 		//start coroutines

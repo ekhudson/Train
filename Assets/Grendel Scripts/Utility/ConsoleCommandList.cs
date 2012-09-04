@@ -37,6 +37,7 @@ public class ConsoleCommandList : Singleton<ConsoleCommandList>
 		ConsoleCommandRegistry.Instance.Register(OutputLog, "OutputLog", "Dump the console log to a .txt file", true);
 		ConsoleCommandRegistry.Instance.Register(Test, "Test", "Test command", true);
 		ConsoleCommandRegistry.Instance.Register(ShowCommands, "ShowCommands", "List all Console Commands", true);
+		ConsoleCommandRegistry.Instance.Register(Player.Instance.ResetPlayer, "ResetPlayer", "Reset the Player's Position to the Starting Position", true);
 	}	
 
 	void Quit(ConsoleCommandParams parameters)

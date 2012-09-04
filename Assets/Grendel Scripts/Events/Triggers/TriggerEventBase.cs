@@ -12,7 +12,7 @@ public class TriggerEventBase : EventBase
 	}  
 
     public TriggerEventBase(Collider collider)
-    {    
+    {   		
 		_collider = collider;
     }	
 	

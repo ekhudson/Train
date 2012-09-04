@@ -1,0 +1,44 @@
+User Name: ekhudson
+Machine Name: BAIULUS
+OS Platform: Win32NT - OS Version: 6.1.7600.0 - OS Service Pack: 
+Processor Type: Intel(R) Atom(TM) CPU N450 @ 1.66GHz - Processor Count: 2
+System Memory: 1015
+GPU: Intel(R) Graphics Media Accelerator 3150 - GPU Memory: 64 - GPU Shader: 20
+Unity Version: 3.5.0f1
+Unity Editor: True
+
+Total Playtime: 29.75554 
+
+Grendel 12/24/31 21:24:43 - AudioManager: Recognizing 3 Music Tracks and 0 Sound Effects.
+Grendel 12/24/31 21:24:43 - LevelManager: Game loaded, calling music track.
+Grendel 12/24/31 21:24:43 - AudioManager: Playing Music Track: 03_facing_it
+Grendel 12/24/31 21:24:44 - Starting up Train 1.0
+Grendel 12/24/31 21:24:44 - ConnectionRegistry (ConnectionRegistry): There were no connections to build.
+ekhudson 12/25/31 21:25:05 - ?
+Grendel 12/25/31 21:25:05 - Listing Available Commands: 
+  - 
+  - FPS
+  - FPS - Display FPS on the screen [DEBUG ONLY]
+  - ListMusicTracks
+  - ListMusicTracks - List all music tracks [DEBUG ONLY]
+  - NextTrack
+  - NextTrack - Go to next music track [DEBUG ONLY]
+  - OutputLog
+  - OutputLog - Dump the console log to a .txt file [DEBUG ONLY]
+  - PlayMusicTrack
+  - PlayMusicTrack - Go to track # [DEBUG ONLY]
+  - PreviousTrack
+  - PreviousTrack - Go to previous music track [DEBUG ONLY]
+  - Quit
+  - Quit - Quit the Game [DEBUG ONLY]
+  - RandomTrack
+  - RandomTrack - Go to a random music track [DEBUG ONLY]
+  - ShowCommands
+  - ShowCommands - List all Console Commands [DEBUG ONLY]
+  - Stats
+  - Stats - Display stats on the screen [DEBUG ONLY]
+  - Test
+  - Test - Test command [DEBUG ONLY]
+  - 
+ekhudson 12/25/31 21:25:13 - OutputLog
+Grendel 12/25/31 21:25:13 - Log File 122531 212513.txt Created
